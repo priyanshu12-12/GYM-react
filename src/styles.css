@@ -1,0 +1,109 @@
+.App {
+  background-color: #282c34;
+  color: white;
+  font-family: "Bebas Neue", cursive;
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.background {
+  background-color: rgb(51, 58, 73);
+  background-image: url(https://wallpaperaccess.com/full/6375161.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 6%;
+  padding-bottom: 7%;
+  color: white;
+}
+
+.metal {
+  font-style: italic;
+  font-size: 1000%;
+}
+.card:hover {
+  transform: scale(1.05);
+  transition: all 0.25s ease-in-out;
+}
+.twoparts {
+  margin-top: 2%;
+}
+.popular {
+  font-size: 350%;
+  font-family: fantasy;
+}
+.about {
+  margin-top: 2%;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+}
+
+.abouttext {
+  margin-top: 7%;
+  float: left;
+  color: white;
+}
+.abouttext2 {
+  display: flex;
+  flex-direction: column;
+}
+.footer {
+  background-color: white;
+  padding: 1%;
+  color: red;
+}
+.plans {
+  color: black;
+  margin: 4%;
+}
+.p1,
+.p2,
+.p3,
+.p4 {
+  color: rgb(27, 20, 20);
+}
+
+.scheduleh1 {
+  margin-top: 3%;
+}
+.forms {
+  color: white;
+}
+lable {
+  color: white;
+}
